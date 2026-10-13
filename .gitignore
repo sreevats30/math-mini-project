@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+venv/
+env/
+ENV/
+
+# IDE & Editor
+.vscode/
+.idea/
+
+# OS generated
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Streamlit cache
+.streamlit/cache/
+.pytest_cache/
+
+# Build caches
+presentation/equations/

@@ -1,0 +1,1159 @@
+{
+  "corpora": {
+    "classic": {
+      "name": "Classic: 9 paper titles (1990)",
+      "documents": 9,
+      "terms": 12,
+      "weighting": "count",
+      "sparsity": 0.7407,
+      "rank": 9,
+      "k": 2,
+      "singular_values_top10": [
+        3.3409,
+        2.5417,
+        2.3539,
+        1.6445,
+        1.5048,
+        1.3064,
+        0.8459,
+        0.5601,
+        0.3637
+      ],
+      "eckart_young": {
+        "k": 2,
+        "frobenius_error": 3.657629,
+        "frobenius_theory": 3.657629,
+        "spectral_error": 2.353944,
+        "spectral_theory": 2.353944,
+        "relative_error": 0.65693,
+        "energy_kept": 0.568443,
+        "norm_A": 5.567764
+      },
+      "svd_checks": {
+        "UtU_minus_I": 1.9313451833178e-15,
+        "VtV_minus_I": 2.7517642090107945e-15,
+        "A_minus_USVt": 5.0926662890119816e-15,
+        "sorted": true,
+        "nonnegative": true,
+        "eig_AtA_vs_sigma2": 1.2434497875801753e-14
+      },
+      "clustering": {
+        "n_clusters": 2,
+        "k": 2,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw": {
+          "ARI": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "NMI": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "silhouette_cosine": 0.4004621250508935
+        },
+        "lsa": {
+          "ARI": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "NMI": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "silhouette_cosine": 0.9499255445924862
+        }
+      },
+      "word_pairs": [
+        {
+          "pair": [
+            "human",
+            "user"
+          ],
+          "corr_A": -0.37796447300922725,
+          "corr_Ak": 0.9385326876266153
+        },
+        {
+          "pair": [
+            "human",
+            "minors"
+          ],
+          "corr_A": -0.28571428571428564,
+          "corr_Ak": -0.8309232586340396
+        },
+        {
+          "pair": [
+            "trees",
+            "graph"
+          ],
+          "corr_A": 0.5,
+          "corr_Ak": 0.9996757989076456
+        }
+      ],
+      "showcase_pair": {
+        "a": "The generation of random, binary, ordered trees",
+        "b": "Graph minors: A survey",
+        "raw_cosine": 0.0,
+        "lsa_cosine": 0.9848044560531353
+      },
+      "search": [
+        {
+          "query": "human computer interaction",
+          "known_terms": [
+            "human",
+            "computer"
+          ],
+          "raw_matches": 3,
+          "top": [
+            {
+              "title": "The EPS user interface management system",
+              "label": "Human–computer interaction",
+              "lsa": 0.998,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Human machine interface for ABC computer applications",
+              "label": "Human–computer interaction",
+              "lsa": 0.998,
+              "raw": 0.816,
+              "shared_words": [
+                "computer",
+                "human"
+              ]
+            },
+            {
+              "title": "System and human system engineering testing of EPS",
+              "label": "Human–computer interaction",
+              "lsa": 0.987,
+              "raw": 0.289,
+              "shared_words": [
+                "human"
+              ]
+            },
+            {
+              "title": "A survey of user opinion of computer system response time",
+              "label": "Human–computer interaction",
+              "lsa": 0.937,
+              "raw": 0.289,
+              "shared_words": [
+                "computer"
+              ]
+            },
+            {
+              "title": "Relation of user perceived response time to error measurement",
+              "label": "Human–computer interaction",
+              "lsa": 0.908,
+              "raw": 0.0,
+              "shared_words": []
+            }
+          ]
+        },
+        {
+          "query": "graph survey",
+          "known_terms": [
+            "survey",
+            "graph"
+          ],
+          "raw_matches": 4,
+          "top": [
+            {
+              "title": "Graph minors: A survey",
+              "label": "Graph theory",
+              "lsa": 0.998,
+              "raw": 0.816,
+              "shared_words": [
+                "graph",
+                "survey"
+              ]
+            },
+            {
+              "title": "Graph minors IV: Widths of trees and well-quasi-ordering",
+              "label": "Graph theory",
+              "lsa": 0.978,
+              "raw": 0.408,
+              "shared_words": [
+                "graph"
+              ]
+            },
+            {
+              "title": "The intersection graph of paths in trees",
+              "label": "Graph theory",
+              "lsa": 0.976,
+              "raw": 0.5,
+              "shared_words": [
+                "graph"
+              ]
+            },
+            {
+              "title": "The generation of random, binary, ordered trees",
+              "label": "Graph theory",
+              "lsa": 0.972,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Relation of user perceived response time to error measurement",
+              "label": "Human–computer interaction",
+              "lsa": 0.52,
+              "raw": 0.0,
+              "shared_words": []
+            }
+          ]
+        },
+        {
+          "query": "user response time",
+          "known_terms": [
+            "user",
+            "response",
+            "time"
+          ],
+          "raw_matches": 3,
+          "top": [
+            {
+              "title": "Relation of user perceived response time to error measurement",
+              "label": "Human–computer interaction",
+              "lsa": 1.0,
+              "raw": 1.0,
+              "shared_words": [
+                "response",
+                "time",
+                "user"
+              ]
+            },
+            {
+              "title": "A survey of user opinion of computer system response time",
+              "label": "Human–computer interaction",
+              "lsa": 0.997,
+              "raw": 0.707,
+              "shared_words": [
+                "response",
+                "time",
+                "user"
+              ]
+            },
+            {
+              "title": "The EPS user interface management system",
+              "label": "Human–computer interaction",
+              "lsa": 0.883,
+              "raw": 0.289,
+              "shared_words": [
+                "user"
+              ]
+            },
+            {
+              "title": "Human machine interface for ABC computer applications",
+              "label": "Human–computer interaction",
+              "lsa": 0.88,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "System and human system engineering testing of EPS",
+              "label": "Human–computer interaction",
+              "lsa": 0.827,
+              "raw": 0.0,
+              "shared_words": []
+            }
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "sigma": 3.3408837521330663,
+          "positive": [
+            "system",
+            "user",
+            "eps",
+            "time",
+            "response",
+            "computer"
+          ],
+          "negative": []
+        },
+        {
+          "sigma": 2.5417010000416296,
+          "positive": [
+            "graph",
+            "trees",
+            "minors",
+            "survey",
+            "response",
+            "time"
+          ],
+          "negative": [
+            "system",
+            "eps",
+            "human",
+            "interface"
+          ]
+        }
+      ]
+    },
+    "science": {
+      "name": "Science blurbs: 24 short documents",
+      "documents": 24,
+      "terms": 285,
+      "weighting": "tfidf",
+      "sparsity": 0.9506,
+      "rank": 24,
+      "k": 4,
+      "singular_values_top10": [
+        1.2228,
+        1.1673,
+        1.1486,
+        1.0717,
+        1.0562,
+        1.0529,
+        1.0466,
+        1.0307,
+        1.0118,
+        1.0087
+      ],
+      "eckart_young": {
+        "k": 4,
+        "frobenius_error": 4.32139,
+        "frobenius_theory": 4.32139,
+        "spectral_error": 1.056156,
+        "spectral_theory": 1.056156,
+        "relative_error": 0.8821,
+        "energy_kept": 0.2219,
+        "norm_A": 4.898979
+      },
+      "svd_checks": {
+        "UtU_minus_I": 8.313514652625769e-15,
+        "VtV_minus_I": 8.50238007569268e-15,
+        "A_minus_USVt": 1.3206124312462936e-14,
+        "sorted": true,
+        "nonnegative": true,
+        "eig_AtA_vs_sigma2": 3.774758283725532e-15
+      },
+      "clustering": {
+        "n_clusters": 4,
+        "k": 4,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw": {
+          "ARI": {
+            "mean": 0.6868589079813029,
+            "std": 0.12022405923681859
+          },
+          "NMI": {
+            "mean": 0.7919769551385486,
+            "std": 0.08099649032231968
+          },
+          "silhouette_cosine": 0.04291238445917461
+        },
+        "lsa": {
+          "ARI": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "NMI": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "silhouette_cosine": 0.7571704013242794
+        }
+      },
+      "word_pairs": [
+        {
+          "pair": [
+            "cosmic",
+            "space"
+          ],
+          "corr_A": -0.09086540792167609,
+          "corr_Ak": 0.9765863018292099
+        },
+        {
+          "pair": [
+            "immune",
+            "treat"
+          ],
+          "corr_A": -0.09082469420070502,
+          "corr_Ak": 0.9642076852769895
+        },
+        {
+          "pair": [
+            "learning",
+            "networks"
+          ],
+          "corr_A": -0.14277429149881235,
+          "corr_Ak": 0.9192693593097018
+        }
+      ],
+      "showcase_pair": {
+        "a": "Exoplanet Atmosphere Spectrometry",
+        "b": "Cosmic Microwave Background and Cosmology",
+        "raw_cosine": 0.0,
+        "lsa_cosine": 0.9926666766071287
+      },
+      "search": [
+        {
+          "query": "telescope galaxy stars",
+          "known_terms": [
+            "stars",
+            "telescope"
+          ],
+          "raw_matches": 2,
+          "top": [
+            {
+              "title": "Exoplanet Atmosphere Spectrometry",
+              "label": "Space Exploration",
+              "lsa": 0.993,
+              "raw": 0.201,
+              "shared_words": [
+                "stars"
+              ]
+            },
+            {
+              "title": "Gravitational Waves and Black Hole Astrophysics",
+              "label": "Space Exploration",
+              "lsa": 0.978,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Cosmic Microwave Background and Cosmology",
+              "label": "Space Exploration",
+              "lsa": 0.972,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "James Webb Space Telescope Discoveries",
+              "label": "Space Exploration",
+              "lsa": 0.971,
+              "raw": 0.191,
+              "shared_words": [
+                "telescope"
+              ]
+            },
+            {
+              "title": "Rocket Propulsion and Orbital Spaceflight",
+              "label": "Space Exploration",
+              "lsa": 0.946,
+              "raw": 0.0,
+              "shared_words": []
+            }
+          ]
+        },
+        {
+          "query": "deep neural network training",
+          "known_terms": [
+            "deep",
+            "network",
+            "neural"
+          ],
+          "raw_matches": 5,
+          "top": [
+            {
+              "title": "Deep Neural Networks and Optimization",
+              "label": "Artificial Intelligence",
+              "lsa": 0.991,
+              "raw": 0.25,
+              "shared_words": [
+                "deep",
+                "neural"
+              ]
+            },
+            {
+              "title": "Unsupervised Clustering and Matrix Factorization",
+              "label": "Artificial Intelligence",
+              "lsa": 0.991,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Computer Vision and Convolutional Models",
+              "label": "Artificial Intelligence",
+              "lsa": 0.94,
+              "raw": 0.104,
+              "shared_words": [
+                "neural"
+              ]
+            },
+            {
+              "title": "Supervised Learning Algorithms",
+              "label": "Artificial Intelligence",
+              "lsa": 0.773,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Reinforcement Learning Agents",
+              "label": "Artificial Intelligence",
+              "lsa": 0.719,
+              "raw": 0.099,
+              "shared_words": [
+                "neural"
+              ]
+            }
+          ]
+        },
+        {
+          "query": "immune therapy for cancer patients",
+          "known_terms": [
+            "immune",
+            "patients",
+            "therapy"
+          ],
+          "raw_matches": 4,
+          "top": [
+            {
+              "title": "mRNA Vaccines and Viral Immunology",
+              "label": "Medical Science",
+              "lsa": 0.996,
+              "raw": 0.132,
+              "shared_words": [
+                "immune"
+              ]
+            },
+            {
+              "title": "Cancer Immunotherapy and Oncology",
+              "label": "Medical Science",
+              "lsa": 0.994,
+              "raw": 0.139,
+              "shared_words": [
+                "immune"
+              ]
+            },
+            {
+              "title": "Neurology and Alzheimer's Clinical Therapeutics",
+              "label": "Medical Science",
+              "lsa": 0.989,
+              "raw": 0.158,
+              "shared_words": [
+                "patients"
+              ]
+            },
+            {
+              "title": "Genomics and CRISPR Gene Therapy",
+              "label": "Medical Science",
+              "lsa": 0.989,
+              "raw": 0.148,
+              "shared_words": [
+                "therapy"
+              ]
+            },
+            {
+              "title": "Cardiovascular Health and Heart Disease",
+              "label": "Medical Science",
+              "lsa": 0.952,
+              "raw": 0.0,
+              "shared_words": []
+            }
+          ]
+        },
+        {
+          "query": "central bank interest rates and inflation",
+          "known_terms": [
+            "central",
+            "inflation",
+            "rates"
+          ],
+          "raw_matches": 1,
+          "top": [
+            {
+              "title": "Central Bank Monetary Policy and Inflation",
+              "label": "Finance & Economics",
+              "lsa": 1.0,
+              "raw": 0.496,
+              "shared_words": [
+                "central",
+                "inflation",
+                "rates"
+              ]
+            },
+            {
+              "title": "Fiscal Policy and Macroeconomic Growth",
+              "label": "Finance & Economics",
+              "lsa": 1.0,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Treasury Bonds and Yield Curve Dynamics",
+              "label": "Finance & Economics",
+              "lsa": 0.999,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Stock Market Equities and Corporate Valuation",
+              "label": "Finance & Economics",
+              "lsa": 0.999,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Venture Capital and Startup Investment",
+              "label": "Finance & Economics",
+              "lsa": 0.978,
+              "raw": 0.0,
+              "shared_words": []
+            }
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "sigma": 1.2227948960926016,
+          "positive": [
+            "data",
+            "representations",
+            "algorithms",
+            "using",
+            "neural",
+            "networks"
+          ],
+          "negative": [
+            "aerospace",
+            "planetary",
+            "exploration",
+            "transport",
+            "rocket",
+            "propulsion"
+          ]
+        },
+        {
+          "sigma": 1.167304620600515,
+          "positive": [
+            "economic",
+            "financial",
+            "government",
+            "macroeconomic",
+            "debt",
+            "policy"
+          ],
+          "negative": [
+            "using",
+            "algorithms",
+            "representations",
+            "data",
+            "learning",
+            "systems"
+          ]
+        },
+        {
+          "sigma": 1.148604789737372,
+          "positive": [
+            "clinical",
+            "medical",
+            "cells",
+            "immune",
+            "patient",
+            "activate"
+          ],
+          "negative": [
+            "algorithms",
+            "data",
+            "representations",
+            "learning",
+            "neural",
+            "using"
+          ]
+        },
+        {
+          "sigma": 1.0716660073276312,
+          "positive": [
+            "space",
+            "astronomical",
+            "detect",
+            "systems",
+            "analyzes",
+            "transits"
+          ],
+          "negative": [
+            "models",
+            "learning",
+            "neural",
+            "language",
+            "policies",
+            "labeled"
+          ]
+        }
+      ]
+    },
+    "news": {
+      "name": "News: 400 real articles (AG News)",
+      "documents": 400,
+      "terms": 1404,
+      "weighting": "tfidf",
+      "sparsity": 0.9902,
+      "rank": 399,
+      "k": 5,
+      "singular_values_top10": [
+        2.4724,
+        1.9744,
+        1.8682,
+        1.7661,
+        1.7192,
+        1.6417,
+        1.6154,
+        1.604,
+        1.5851,
+        1.5691
+      ],
+      "eckart_young": {
+        "k": 5,
+        "frobenius_error": 19.504461,
+        "frobenius_theory": 19.504461,
+        "spectral_error": 1.641684,
+        "spectral_theory": 1.641684,
+        "relative_error": 0.975223,
+        "energy_kept": 0.04894,
+        "norm_A": 20.0
+      },
+      "svd_checks": {
+        "UtU_minus_I": 5.201468210279872e-14,
+        "VtV_minus_I": 5.2239119267904864e-14,
+        "A_minus_USVt": 6.787041547348585e-14,
+        "sorted": true,
+        "nonnegative": true,
+        "eig_AtA_vs_sigma2": 7.993605777301127e-15
+      },
+      "clustering": {
+        "n_clusters": 4,
+        "k": 5,
+        "seeds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw": {
+          "ARI": {
+            "mean": 0.0715125767807158,
+            "std": 0.023772639018889513
+          },
+          "NMI": {
+            "mean": 0.11536787765038044,
+            "std": 0.03309789196045702
+          },
+          "silhouette_cosine": 0.006312268399079664
+        },
+        "lsa": {
+          "ARI": {
+            "mean": 0.5416073462082709,
+            "std": 0.0010302977169122428
+          },
+          "NMI": {
+            "mean": 0.5019021995287283,
+            "std": 0.0004509950245324856
+          },
+          "silhouette_cosine": 0.5561551678306349
+        }
+      },
+      "word_pairs": [
+        {
+          "pair": [
+            "airline",
+            "airlines"
+          ],
+          "corr_A": -0.013178634475676859,
+          "corr_Ak": 0.9968101982723699
+        },
+        {
+          "pair": [
+            "scored",
+            "wins"
+          ],
+          "corr_A": -0.012061298440152338,
+          "corr_Ak": 0.9982792455790718
+        },
+        {
+          "pair": [
+            "profits",
+            "shares"
+          ],
+          "corr_A": -0.014087912924651884,
+          "corr_Ak": 0.9971972158075707
+        }
+      ],
+      "showcase_pair": {
+        "a": "Autonomy, Mamma.com Join Desktop Search Ranks",
+        "b": "New Version Of Google Groups Launched",
+        "raw_cosine": 0.0,
+        "lsa_cosine": 0.9768797292227586
+      },
+      "search": [
+        {
+          "query": "computer virus",
+          "known_terms": [
+            "computer"
+          ],
+          "raw_matches": 8,
+          "top": [
+            {
+              "title": "SBC Gives Microsoft $400 Mln Internet TV Deal",
+              "label": "Sci/Tech",
+              "lsa": 0.966,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Microsoft To OK One License for Multicore Chips",
+              "label": "Sci/Tech",
+              "lsa": 0.956,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "NHS signs nine-year extension with Microsoft",
+              "label": "Sci/Tech",
+              "lsa": 0.952,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "IBM reported to be exiting PC business",
+              "label": "Business",
+              "lsa": 0.945,
+              "raw": 0.24,
+              "shared_words": [
+                "computer"
+              ]
+            },
+            {
+              "title": "Business News for Technology Leaders Microsoft Makes Deal with & ...&",
+              "label": "Sci/Tech",
+              "lsa": 0.942,
+              "raw": 0.0,
+              "shared_words": []
+            }
+          ]
+        },
+        {
+          "query": "stock market",
+          "known_terms": [
+            "market",
+            "stock"
+          ],
+          "raw_matches": 13,
+          "top": [
+            {
+              "title": "Travelzoo Shares Rise as Offering Rumor Fades",
+              "label": "Sci/Tech",
+              "lsa": 0.976,
+              "raw": 0.349,
+              "shared_words": [
+                "market",
+                "stock"
+              ]
+            },
+            {
+              "title": "Sara Lee 1st-Quarter Net Rises on Fee",
+              "label": "Business",
+              "lsa": 0.976,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Nothing ventured, nothing at all gained",
+              "label": "Business",
+              "lsa": 0.955,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Stocks in a rut",
+              "label": "Business",
+              "lsa": 0.952,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Soybeans Retreat, Grains Futures Mixed",
+              "label": "Business",
+              "lsa": 0.941,
+              "raw": 0.0,
+              "shared_words": []
+            }
+          ]
+        },
+        {
+          "query": "championship coach",
+          "known_terms": [
+            "championship",
+            "coach"
+          ],
+          "raw_matches": 14,
+          "top": [
+            {
+              "title": "McLeish upset by Novo punishment",
+              "label": "Sports",
+              "lsa": 0.997,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Alabama Upsets No. 24 Southern Miss 27-3",
+              "label": "Sports",
+              "lsa": 0.994,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Villeneuve back in driver 's seat and with a point to prove",
+              "label": "Sports",
+              "lsa": 0.993,
+              "raw": 0.22,
+              "shared_words": [
+                "championship"
+              ]
+            },
+            {
+              "title": "American Fish Confident About Tough Davis Cup Final",
+              "label": "Sports",
+              "lsa": 0.992,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Shakhtar to beat Celtic twice, bets Marica",
+              "label": "Sports",
+              "lsa": 0.992,
+              "raw": 0.0,
+              "shared_words": []
+            }
+          ]
+        },
+        {
+          "query": "election violence",
+          "known_terms": [
+            "election",
+            "violence"
+          ],
+          "raw_matches": 17,
+          "top": [
+            {
+              "title": "Bush Mixing Diplomacy and Campaigning",
+              "label": "World",
+              "lsa": 0.993,
+              "raw": 0.144,
+              "shared_words": [
+                "election"
+              ]
+            },
+            {
+              "title": "GOP Urge Bush to Turn Attention From Iraq",
+              "label": "World",
+              "lsa": 0.986,
+              "raw": 0.108,
+              "shared_words": [
+                "election"
+              ]
+            },
+            {
+              "title": "US soldier convicted of torture in Iraq",
+              "label": "World",
+              "lsa": 0.985,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "Putin doubts date of the elections, Allawi confirms it will be & ...&",
+              "label": "World",
+              "lsa": 0.981,
+              "raw": 0.0,
+              "shared_words": []
+            },
+            {
+              "title": "British FM makes surprise trip to Iraq",
+              "label": "World",
+              "lsa": 0.977,
+              "raw": 0.0,
+              "shared_words": []
+            }
+          ]
+        }
+      ],
+      "concepts": [
+        {
+          "sigma": 2.4723995293461174,
+          "positive": [
+            "said",
+            "new",
+            "microsoft",
+            "oil",
+            "year",
+            "stocks"
+          ],
+          "negative": []
+        },
+        {
+          "sigma": 1.9743671824861104,
+          "positive": [
+            "oil",
+            "stocks",
+            "prices",
+            "higher",
+            "lower",
+            "investors"
+          ],
+          "negative": [
+            "microsoft",
+            "software",
+            "service",
+            "company",
+            "thursday",
+            "security"
+          ]
+        },
+        {
+          "sigma": 1.8682256197734592,
+          "positive": [
+            "microsoft",
+            "software",
+            "stocks",
+            "oil",
+            "service",
+            "windows"
+          ],
+          "negative": [
+            "iraq",
+            "said",
+            "team",
+            "state",
+            "iraqi",
+            "minister"
+          ]
+        },
+        {
+          "sigma": 1.7660987873999556,
+          "positive": [
+            "team",
+            "season",
+            "game",
+            "just",
+            "victory",
+            "cup"
+          ],
+          "negative": [
+            "iraq",
+            "said",
+            "pilots",
+            "delta",
+            "company",
+            "air"
+          ]
+        },
+        {
+          "sigma": 1.719226886576888,
+          "positive": [
+            "pilots",
+            "delta",
+            "air",
+            "billion",
+            "concession",
+            "lines"
+          ],
+          "negative": [
+            "microsoft",
+            "iraq",
+            "software",
+            "bush",
+            "windows",
+            "security"
+          ]
+        }
+      ]
+    }
+  },
+  "news_k_sweep": {
+    "k": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      12,
+      15,
+      20,
+      25,
+      30,
+      40,
+      50,
+      75,
+      100,
+      150,
+      200
+    ],
+    "lsa_mean": [
+      0.06257693867847605,
+      0.2612055313335636,
+      0.4018287140636859,
+      0.5416073462082709,
+      0.4736148892090791,
+      0.4637579863891063,
+      0.4735178132818464,
+      0.488444475259968,
+      0.42351207343655856,
+      0.41748228101073553,
+      0.4104208250236951,
+      0.3919748481413725,
+      0.41469368195305184,
+      0.34447614920675385,
+      0.28984118403302916,
+      0.30784213013427314,
+      0.2904901779066027,
+      0.18519464525716117,
+      0.20777218483515925
+    ],
+    "lsa_std": [
+      0.0005689514312294154,
+      0.0004123671992532829,
+      0.0022644729700149442,
+      0.0010302977169122428,
+      0.00531915524774221,
+      5.551115123125783e-17,
+      0.007502260457251347,
+      0.014537402775695799,
+      0.04469451776141834,
+      0.0753573975604253,
+      0.042405355242589725,
+      0.052962506187825324,
+      0.06364669046984826,
+      0.06429743263033165,
+      0.06739610503041003,
+      0.05210382354151997,
+      0.05727269310404837,
+      0.07439284264796603,
+      0.057030415469641056
+    ],
+    "raw_mean": 0.0715125767807158,
+    "raw_std": 0.023772639018889513
+  },
+  "elapsed_seconds": 13.5
+}

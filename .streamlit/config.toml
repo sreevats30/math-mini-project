@@ -1,0 +1,68 @@
+[server]
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "light"
+primaryColor = "#0F7A80"
+backgroundColor = "#FAFBFC"
+secondaryBackgroundColor = "#EEF2F5"
+textColor = "#18202B"
+linkColor = "#0F7A80"
+borderColor = "#D5DCE3"
+showWidgetBorder = true
+baseRadius = "0.45rem"
+baseFontSize = 16
+font = "Lexend"
+headingFont = "Literata"
+chartCategoricalColors = ["#2a78d6", "#e34948", "#1baf7a", "#eda100"]
+
+[[theme.fontFaces]]
+family = "Lexend"
+url = "app/static/fonts/lexend-latin-300-normal.woff2"
+weight = 300
+
+[[theme.fontFaces]]
+family = "Lexend"
+url = "app/static/fonts/lexend-latin-400-normal.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Lexend"
+url = "app/static/fonts/lexend-latin-500-normal.woff2"
+weight = 500
+
+[[theme.fontFaces]]
+family = "Lexend"
+url = "app/static/fonts/lexend-latin-600-normal.woff2"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Literata"
+url = "app/static/fonts/literata-latin-400-normal.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Literata"
+url = "app/static/fonts/literata-latin-400-italic.woff2"
+weight = 400
+style = "italic"
+
+[[theme.fontFaces]]
+family = "Literata"
+url = "app/static/fonts/literata-latin-600-normal.woff2"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Literata"
+url = "app/static/fonts/literata-latin-700-normal.woff2"
+weight = 700
+
+[theme.sidebar]
+backgroundColor = "#EEF2F5"
+secondaryBackgroundColor = "#FAFBFC"
